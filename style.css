@@ -1,0 +1,61 @@
+body{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    background: linear-gradient(rgb(0, 0, 0), rgb(116, 83, 6));
+    text-align: center;
+    list-style-type: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    background: rgb(212, 124, 22);
+    height: 120px;
+    padding: 0px;
+}
+ul.title_theme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+.nav_logo{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.nav_logo_and_name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.artCardPrin {
+    display: flex;
+    flex-direction: column;
+}
+.artCard {
+    display: flex;
+    flex-direction: raw;
+}
+.card-image{
+    height: 324px;
+    width: 570px;
+}
+.auteur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.photo{
+    border-radius: 50%;
+}
+.theme{
+    display: flex;
+    flex-direction: raw;
+    font-size: 10px;
+}
